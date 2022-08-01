@@ -1,0 +1,141 @@
+
+body{
+    background-color: #0B0F12;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+nav{
+    margin:0 2%;
+    height: 75px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo{
+    margin-top:24px;
+    margin-bottom:24px;
+    height:27px;
+}
+
+.elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.elements div{
+    color: white;
+    margin-left:25px;
+    margin-right: 9px;
+    font-size:11px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.opening{
+    height: 560px;
+    color:white;
+    background-color: #0B0F12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: horizontal-tb; 
+
+}
+
+
+.top_sentence{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_sentence{
+    font-size: 72px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+
+.bottom_sentence{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    ::selection {
+        color: #fff;
+        background: #000;
+    }
+
+    .logo{
+        margin-top:24px;
+        margin-bottom:24px;
+        height:15px;
+    }
+
+    nav{
+        margin:0 5%;
+        height: 75px;
+        display:flex;
+        justify-content:space-between;
+    }
+    
+
+    .elements div{
+        font-size:7px;
+        margin-left:12px;
+        margin-right:5px;
+
+    }
+
+
+    .opening{
+        height: 160px;
+        color:white;
+        background-color: #0B0F12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .top_sentence{
+        font-size: 8px;
+        font-family: "Montserrat",sans-serif;
+        font-weight: 400;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main_sentence{
+        font-size: 30px;
+        font-family: "Montserrat",sans-serif;
+        font-weight: 800;
+        margin-bottom: 30px;
+        
+    }
+    
+    .bottom_sentence{
+        font-size: 8px;
+        font-family: "Montserrat",sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+    
+  }

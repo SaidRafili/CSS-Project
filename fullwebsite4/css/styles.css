@@ -446,3 +446,76 @@ header nav button:hover{
     padding-left: 201.5px;
     padding-right: 201.5px;
 }
+
+/*~~~~~~~~~~~~~~~~~Fifth Page~~~~~~~~~~~~~~~~*/
+
+.fifthpage{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--lightblue);
+    display: flex;
+    justify-content: center;
+}
+
+.fifthpage__total{
+    width: var(--websitesize);
+}
+
+.fifthpage__text{
+    float: left;
+}
+
+.fifthpage__text h3{
+    color: #222;
+    line-height: 45px;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fifthpage__text h6{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    margin-bottom: 8px;
+}
+
+.fifthpage__text p{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 0;
+    max-width: 570px;
+    margin: auto;
+}
+
+.fifthpage__text a{
+    margin-top: 35px;
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(to right,#4dabff 0%,#62ddff 48%,#4dabff 100%);
+    background-size: 200% auto;
+    padding: 0 35px;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none!important;
+    box-shadow: none!important;
+    text-align: center;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+}
+
+.fifthpage__image{
+    float: right;
+}
+
+.fifthpage__image img{
+    width: 555px;
+}
